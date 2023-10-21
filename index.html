@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&family=Inter:wght@400;600;700&display=swap" rel="stylesheet"> 
+<link rel="stylesheet" href="./stly.css">
+<link rel="stylesheet" href="./reset.css">
+
+
+    <title>Picapa alemao - Gerador de senhas</title>
+</head>
+<body>
+
+<main>
+
+
+<section   class="topo">
+ <h1 class="Titulo">Gerador de senhas</h1>
+    <p class="Subtitulo"> Utilize nosso gerador online e crie uma senha forte e segura.> </p>
+
+</section>
+
+
+<section class="box">
+        <div class="password">
+
+
+
+<div class="text">
+    <input type="text"  name="password" id="password" >
+</div>
+
+
+<div class="actions">
+    <button id="copy-2"><img src="./copy.svg" ></button>
+     <button id="reload"><img src="./reload.svg" ></button>
+</div>
+ 
+
+</div>
+
+<div class="security-indicator">
+
+<div class="bar safe "   id="security-indicator-bar"    ></div>
+
+
+
+
+</div>
+        
+
+
+</section>
+
+<section  class="box customize">
+
+<h3 class="title">Personalizar</h3>
+
+<div class="actions">
+
+     <div class="password-length">
+
+                  <p>Tamanho:   <span id="password-length-text">16</span> </p>
+
+<input type="range" class="slider" name="password-length" id="password-length" value="16" min="4" max="64">
+   </div>
+
+
+<div class="config">
+      <label class="chackbox-container">
+      <span class="text">Maiúsculas</span>
+       <input type="checkbox" id="uppercase-check" checked>
+        <span class="checkmark"></span>
+      </label>
+
+      <label class="chackbox-container">
+        <span class="text">Números</span>
+         <input type="checkbox" id="number-check" checked>
+          <span class="checkmark"></span>
+        </label>
+  
+        <label class="chackbox-container">
+            <span class="text">Simbolos</span>
+             <input type="checkbox" id="simbol-check" checked>
+              <span class="checkmark"></span>
+            </label>
+      
+
+
+
+</div>
+
+</div>
+
+</section>
+
+
+<div    class="submit">
+ <button id="copy-1">Copiar senha   </button>
+
+</div>
+
+
+
+
+     
+    
+</main>
+
+
+<script src="./script.js"></script>
+
+</body>
+</html>
